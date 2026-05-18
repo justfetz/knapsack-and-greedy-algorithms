@@ -66,6 +66,14 @@ cd ortools-python
 python -m pytest tests\test_knapsack_ortools.py
 ```
 
+Java OR-Tools:
+
+```powershell
+cd ortools-java
+.\run-ortools-java.ps1
+.\run-ortools-java-tests.ps1
+```
+
 Run all implementations:
 
 ```powershell
@@ -81,12 +89,13 @@ Run all implementations:
 
 - [`output/knapsack_solution_java.csv`](./output/knapsack_solution_java.csv)
 - [`output/knapsack_solution_python.csv`](./output/knapsack_solution_python.csv)
+- [`output/knapsack_solution_ortools_java.csv`](./output/knapsack_solution_ortools_java.csv)
 - [`output/knapsack_solution_ortools_python.csv`](./output/knapsack_solution_ortools_python.csv)
 - [`output/activity_selection_java.csv`](./output/activity_selection_java.csv)
 - [`output/activity_selection_python.csv`](./output/activity_selection_python.csv)
 
 ## Next steps
 
-1. Add Java OR-Tools parity for knapsack.
-2. Add weighted interval scheduling.
-3. Add job sequencing with deadlines and profits.
+1. Add weighted interval scheduling.
+2. Add job sequencing with deadlines and profits.
+3. Add richer business constraints to the knapsack family.

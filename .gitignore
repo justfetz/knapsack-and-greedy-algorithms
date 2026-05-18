@@ -3,6 +3,7 @@ python/__pycache__/
 python/solver/__pycache__/
 ortools-python/__pycache__/
 ortools-python/solver/__pycache__/
+ortools-java/target/
 *.pyc
 python/pytest-cache-files-*/
 ortools-python/pytest-cache-files-*/
