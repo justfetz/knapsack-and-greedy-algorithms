@@ -1,5 +1,7 @@
 # Knapsack And Greedy Algorithms
 
+![CI](https://github.com/justfetz/knapsack-and-greedy-algorithms/actions/workflows/ci.yml/badge.svg)
+
 Runnable Java, Python, and OR-Tools implementations for two foundational operations research patterns:
 
 - `0/1 knapsack`
